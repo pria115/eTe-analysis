@@ -38,7 +38,9 @@ Project Title: Collaborative Development of an end to end project using Centrali
       git pull origin master 
       
   Then every thing is ready.
-  So there are altogether three stages of repository
+  
+  So there are altogether three stages of repository.
+  
   local repo --> personal remote repo --> master central remote repo
  
  
@@ -46,3 +48,12 @@ Project Title: Collaborative Development of an end to end project using Centrali
  
 - Use "issues" tab to register the tasks to which member(s) are assigned or your favourite tasks assigned to yourself
 - State Issue Id  "#xx" in the pull request name / title/ message to allow the teams knows that what your Pull request is about and to which task(issue) it is for
+
+# How to keep your local repository updated everyday? Important!!!!
+
+- Make sure you commit your local changes first
+- Always make git pull before starting your work of the day in your local directory/repo
+
+    git pull https://github.com/mdsi-dsp-at2/eTe-analysis
+
+
