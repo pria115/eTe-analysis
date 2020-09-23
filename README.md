@@ -44,7 +44,7 @@ Project Title: Collaborative Development of an end to end project using Centrali
  
  # General Rule of Thumb in Creating Tasks, Assigining Tasks and Making Pull Requests
  
-- Use "issues" tab to register the tasks to which member(s) are assigned or your favourite tasks assigned to yourself
+- Use "Issues" tab to register the tasks to which member(s) are assigned or your favourite tasks assigned to yourself
 - State Issue Id  "#xx" in the pull request name / title/ message to allow the teams knows that what your Pull request is about and to which task(issue) it is for
 
 # How to keep your local repository updated everyday? Important!!!!
