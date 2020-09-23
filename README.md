@@ -19,21 +19,21 @@ Project Title: Collaborative Development of an end to end project using Centrali
  ????
  
  # How to start ?
- 1.  Fork this repository to your personal remote repository(account)
+ - Fork this repository to your personal remote repository(account)
  
      This will be your own remote repo to which you commit your local changes and 
      from which (browser interface) your pull request will be made.
  
- 2. In your local machine, create local repository, 
+ - In your local machine, create local repository, 
     in your preferred workspace,
     
       git init
       
- 3. Connect to your personal remote repo from your local repo
+ - Connect to your personal remote repo from your local repo
  
       git remote add origin master https://github.com/<yourname>/eTe-analysis.git
  
- 4. Clone your remote repo into your local machine
+ - Clone your remote repo into your local machine
  
       git pull origin master 
       
