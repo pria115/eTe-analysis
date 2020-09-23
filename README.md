@@ -18,8 +18,9 @@ Project Title: Collaborative Development of an end to end project using Centrali
  # Data 
  ????
  
- # Not sure how to start ?
+ # How to start ?
  1.  Fork this repository to your personal remote repository(account)
+ 
      This will be your own remote repo to which you commit your local changes and 
      from which (browser interface) your pull request will be made.
  
