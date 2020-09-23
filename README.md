@@ -37,9 +37,7 @@ Project Title: Collaborative Development of an end to end project using Centrali
  
       git pull origin master 
       
-  Then every thing is ready.
-  
-  So there are altogether three stages of repository.
+  Then every thing is ready. So there are altogether three stages of repository.
   
   local repo --> personal remote repo --> master central remote repo
  
