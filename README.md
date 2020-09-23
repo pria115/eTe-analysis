@@ -26,12 +26,15 @@ Project Title: Collaborative Development of an end to end project using Centrali
  
  2. In your local machine, create local repository, 
     in your preferred workspace,
+    
       git init
       
  3. Connect to your personal remote repo from your local repo
+ 
       git remote add origin master https://github.com/<yourname>/eTe-analysis.git
  
  4. Clone your remote repo into your local machine
+ 
       git pull origin master 
       
   Then every thing is ready.
@@ -42,4 +45,4 @@ Project Title: Collaborative Development of an end to end project using Centrali
  # General Rule of Thumb in Creating Tasks, Assigining Tasks and Making Pull Requests
  
 - Use "issues" tab to register the tasks to which member(s) are assigned or your favourite tasks assigned to yourself
-- Mention Issue Id  "#xx" in the pull request to the master repository
+- State Issue Id  "#xx" in the pull request name / title/ message to allow the teams knows that what your Pull request is about and to which task(issue) it is for
