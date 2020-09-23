@@ -31,7 +31,7 @@ Project Title: Collaborative Development of an end to end project using Centrali
       
  - Connect to your personal remote repo from your local repo
  
-      git remote add origin master https://github.com/<yourname>/eTe-analysis.git
+      git remote add origin master https://github.com/xxxxxx/eTe-analysis.git
  
  - Clone your remote repo into your local machine
  
