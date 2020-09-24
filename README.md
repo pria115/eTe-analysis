@@ -21,7 +21,7 @@ Project Title: Collaborative Development of an end to end project using Centrali
  # How to start ?
  - Fork this repository to your personal remote repository(account)
  
-     This will be your own remote repo to which you commit your local changes and 
+     This will be your own remote repo to which you push your locally committed changes and 
      from which (browser interface) your pull request will be made.
  
  - In your local machine, create local repository, 
@@ -35,7 +35,7 @@ Project Title: Collaborative Development of an end to end project using Centrali
  
  - Clone your remote repo into your local machine
  
-      git pull origin master 
+      git pull origin master ("clone" also works)
       
   Then every thing is ready. So there are altogether three stages of repository.
   
