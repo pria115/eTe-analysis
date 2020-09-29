@@ -6,6 +6,8 @@ Project Title: Collaborative Development of an end to end project using Centrali
 
 # The file structure is 
 
+/raw_data - Store all the raw data files
+
 /etl - for Extract, Transform, Load processing
 
 /analysis - for code of EDA and insights
@@ -16,7 +18,15 @@ Project Title: Collaborative Development of an end to end project using Centrali
              
              
  # Data 
- ????
+ The raw dataset is about Mental Health and Suicide Rates
+ There are four csv files 
+ - age_standardized_suicide_rates.csv : Age standardized suicide rates for different years
+ - crude_suicide_rates.csv : Suicide rates(year 2016) per 100000 population in different age range
+ - facilities.csv : Facilities available of different countries in 2016
+ - human_resources.csv : Human resources available of different countries in 2016
+
+
+ - source : https://www.kaggle.com/twinkle0705/mental-health-and-suicide-rates?select=Human+Resources.csv
  
  # How to start ?
  - Fork this repository to your personal remote repository(account)
