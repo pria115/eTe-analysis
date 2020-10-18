@@ -9,7 +9,7 @@ import numpy as np
 import seaborn as sns
 
 # Getting Data of crude suicide rate
-suicide_rate_data_filepath = os.path.join("..\\processed_data", "crude_suicide_rates.csv")
+suicide_rate_data_filepath = os.path.join("..","processed_data", "crude_suicide_rates.csv")
 suicide_rate_dataframe = pd.read_csv(suicide_rate_data_filepath, index_col=0)
 #print(human_resource_dataframe.head())
 
