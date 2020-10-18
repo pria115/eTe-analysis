@@ -35,9 +35,3 @@ plot_top5_country = sns.barplot(x='Country', y='Suicide_rate', hue='Age', data =
 plt.title("Top 5 Countries with Highest Suicide Rate")
 plt.ylabel("Suicide rate per 100,000 population")
 plt.show()
-
-
-
-
-
-
