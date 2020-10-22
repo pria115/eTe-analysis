@@ -7,7 +7,7 @@ import numpy as np
 import seaborn as sns
 
 # ========= Getting Data =========
-suicide_rate_data_filepath = os.path.join("..","processed_data", "crude_suicide_rates.csv")
+suicide_rate_data_filepath = os.path.join('..','processed_data', 'crude_suicide_rates.csv')
 suicide_rate_dataframe = pd.read_csv(suicide_rate_data_filepath, index_col=0)
 #print(human_resource_dataframe.head())
 
@@ -23,12 +23,12 @@ suicide_rate_pivot_longer_df = pd.melt(suicide_rate_dataframe, id_vars=['Country
 
 # ========= plotting graph =========
 # Plotting the suicide rate distribution in FacetGrid
-sns.set_style("dark")
-g = sns.FacetGrid(suicide_rate_pivot_longer_df, col="Age", col_wrap=3)
-g.map_dataframe(plt.hist, x="Suicide_rate")
-g.set_axis_labels("", "Suicide Rate")
+sns.set_style('dark')
+g = sns.FacetGrid(suicide_rate_pivot_longer_df, col='Age', col_wrap=3)
+g.map_dataframe(plt.hist, x='Suicide_rate')
+g.set_axis_labels('', 'Suicide Rate')
 # This is to adjust the axis and display the main title
 # without it, seaborn's facet titles and the main title are overlapped
 plt.subplots_adjust(top=0.9)
-g.fig.suptitle("Suicide Rate Distribution Analysis by Age")
+g.fig.suptitle('Suicide Rate Distribution Analysis by Age')
 plt.show()
