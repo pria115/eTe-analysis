@@ -7,7 +7,6 @@ import matplotlib.pyplot as plt
 import numpy as np
 import seaborn as sns
 
-
 # ========= Getting Data =========
 suicide_rate_data_filepath = os.path.join("..","processed_data", "crude_suicide_rates.csv")
 suicide_rate_dataframe = pd.read_csv(suicide_rate_data_filepath, index_col=0)
@@ -33,12 +32,14 @@ suicide_rate_separatesex = suicide_rate_pivot_longer_df[suicide_rate_pivot_longe
 print(top_5_suicide_rate_bothsex['Country'].to_list())
 top_5_country_names = top_5_suicide_rate_bothsex['Country'].to_list()
 ## Filtering out Male/Female records belong to the hightest rate countries.
-final = suicide_rate_separatesex[suicide_rate_separatesex['Country'].isin(top_5_country_names)]
-#print("final",final.head())
+final_df = suicide_rate_separatesex[suicide_rate_separatesex['Country'].isin(top_5_country_names)]
+#print("final_df",final_df.head())
+
 
 # ========= plotting graph =========
 sns.set_style("whitegrid")
-gg = sns.catplot(data = final, kind="bar", x="Country", y="Suicide_rate",hue="Sex", palette="husl", alpha=.9, height=5, ci=None)
+gg = sns.catplot(data = final_df, kind="bar", x="Country", y="Suicide_rate",hue="Sex", palette="husl", alpha=.9, height=5, ci=None)
 gg.despine(left=True).set_ylabels("Suicide rate")
 plt.title("Top 5 Countries with Highest Suicide Rate")
 plt.show()
+
