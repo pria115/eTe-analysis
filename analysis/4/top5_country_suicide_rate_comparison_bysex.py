@@ -4,11 +4,10 @@
 import os
 import pandas as pd
 import matplotlib.pyplot as plt
-import numpy as np
 import seaborn as sns
 
 # ========= Getting Data =========
-suicide_rate_data_filepath = os.path.join("..","processed_data", "crude_suicide_rates.csv")
+suicide_rate_data_filepath = os.path.join('..','processed_data', 'crude_suicide_rates.csv')
 suicide_rate_dataframe = pd.read_csv(suicide_rate_data_filepath, index_col=0)
 #print(human_resource_dataframe.head())
 
@@ -37,9 +36,8 @@ final_df = suicide_rate_separatesex[suicide_rate_separatesex['Country'].isin(top
 
 
 # ========= plotting graph =========
-sns.set_style("whitegrid")
-gg = sns.catplot(data = final_df, kind="bar", x="Country", y="Suicide_rate",hue="Sex", palette="husl", alpha=.9, height=5, ci=None)
-gg.despine(left=True).set_ylabels("Suicide rate")
-plt.title("Top 5 Countries with Highest Suicide Rate")
+sns.set_style('whitegrid')
+gg = sns.catplot(data = final_df, kind='bar', x='Country', y='Suicide_rate',hue='Sex', palette='husl', alpha=.9, height=5, ci=None)
+gg.despine(left=True).set_ylabels('Suicide rate')
+plt.title('Top 5 Countries with Highest Suicide Rate')
 plt.show()
-
