@@ -7,8 +7,7 @@ import seaborn as sns
 
 # ========= Getting Data =========
 suicide_rate_data_filepath = os.path.join('..','processed_data', 'crude_suicide_rates.csv')
-#suicide_rate_dataframe = pd.read_csv(suicide_rate_data_filepath, index_col=0)
-suicide_rate_dataframe = pd.read_csv(suicide_rate_data_filepath)
+suicide_rate_dataframe = pd.read_csv(suicide_rate_data_filepath, index_col=0)
 print(suicide_rate_dataframe.head())
 
 # ========= Prepare Data =========
